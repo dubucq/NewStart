@@ -1,0 +1,3 @@
+Utilité des environnement virtuels ? 
+    -> gerer les problemes de compatibilité liés au paquets 
+
