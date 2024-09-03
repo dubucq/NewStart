@@ -1,3 +1,21 @@
 Utilité des environnement virtuels ? 
     -> gerer les problemes de compatibilité liés au paquets 
 
+Creer un Env Virtuel :
+    -> py -m venv <environnement name> 
+
+Activer l'env : 
+    -> env\Scripts\activate.bat 
+
+Deactiver l'env : 
+    -> deactivate
+
+installer un paquet : 
+    -> pip install <nom du paquet>
+
+requirements.txt est un fichier listant les paquets à installer pour le projet et leurs versions
+    -> Le faire manuellement 
+    -> En auto : pip freeze > requirements.txt
+
+installer les paquets d'un fichier requirements.txt : 
+    -> pip install -r requirements.txt
